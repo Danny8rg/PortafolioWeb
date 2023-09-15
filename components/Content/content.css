@@ -1,0 +1,33 @@
+#ImagesBox{
+    width: auto;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.thiscard{
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.imagesElements{
+    width: 250px;
+    height: 300px;
+}
+
+.titles{
+    color: grey;
+}
